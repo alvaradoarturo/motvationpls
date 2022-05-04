@@ -1,14 +1,25 @@
 * {
     box-sizing: border-box;
   }
-  
-body {
+
+html, body {
+    height: 100%;
     padding: 0;
     margin: 0;
 }
 
-.button {
+.outercircle {
+    min-height: 100%;
+    background-color: black;
+}
+
+.motivation-button {
     background-color: chartreuse;
-    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
     font-size: 25px;
 }  
